@@ -17,14 +17,14 @@ h1 {
 }
 
 .sidebar_navigation {
-    display: flex;
+    /*display: flex;*/
     background-color: #121212;   
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar_navigation .logo {
-    /*display: flex;*/
+    display: flex;
     background: #121212;
     border-radius: 8px;
     padding: 10px 0 0 16px;
@@ -35,7 +35,8 @@ h1 {
 }
 
 .sidebar nav ul {
-    margin-top: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
     padding: 0 20px 10px 0;
 }
 
@@ -187,7 +188,7 @@ h1 {
    flex-shrink: 0;
 }
 
-.disclaimer-premium .disclaimer-premium__title {
+.disclaimer-premium .disclaimer-premium_title {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
@@ -195,7 +196,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.disclaimer-premium .disclaimer-premium__subtitle {
+.disclaimer-premium .disclaimer-premium_subtitle {
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
